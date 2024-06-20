@@ -8,7 +8,7 @@ import { IMetadata, ICreateMetadata } from '../interfaces/metadata.interface';
   providedIn: 'root',
 })
 export class MetadataService {
-  private apiUrl = 'http://localhost:8080/metadata';
+  private apiUrl = 'https://studious-tribble-p46r5w6vpjq397xq-8080.app.github.dev/metadata';
 
   constructor(private http: HttpClient) {}
 
